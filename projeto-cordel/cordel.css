@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Sacha';
+    src: url('Sriracha-Regular.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+            }
+@font-face {
+    font-family: 'Passion';
+    src: url('PassionOne-Regular.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+                        }
+
+header {
+    font-family: 'Passion';
+    background-color: black;
+    color: white;
+    font-weight: lighter;
+    font-variant: small-caps;
+    font-size: 3.5em;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+header>p {
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+p {
+    font-family: Sacha;
+    padding-top: 50px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+#girassol {
+    background-image: url(background001.jpg);
+    background-position: center right;
+    background-size: 98;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    width: 1000px;
+    color: white;
+}
+.f1{
+    padding-left: -40px;
+    background-color: rgba(0, 0, 0, 0.219);
+    width: 250px;
+    height: 250px;
+    background-position: center bottom;
+}
+.normal {
+    padding: 25px;
+}
+#pagina {
+    background-image: url(background002.jpg);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    width: 1000px;
+    color: white;
+
+}
+.f2 {
+    padding-left: -40px;
+    background-color: rgba(0, 0, 0, 0.219);
+    width: 250px;
+    height: 250px;
+    background-position: center bottom;
+}
+.ultimo {
+    padding-bottom: 50px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Passion';
+    padding: 12px;
+}
+.link {
+    text-decoration: none;
+    color: white;
+}
+.link:hover {
+    animation-delay: 1.5s;
+    color: purple;
+    text-decoration: underline;
+}
